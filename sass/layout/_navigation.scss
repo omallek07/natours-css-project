@@ -42,7 +42,10 @@
   }
 
   &__list {
-    @include centered-list;
+    @include absCenter;
+    list-style: none;
+    text-align: center;
+    width: 100%;
   }
 
   &__item {
